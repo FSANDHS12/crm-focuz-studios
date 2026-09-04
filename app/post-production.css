@@ -1,0 +1,45 @@
+.post-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.post-stack .board {
+  border-left: 4px solid #df3338;
+}
+.post-stack .kanban > section {
+  min-width: 220px;
+}
+.post-stack .boardhead h2 {
+  font-size: 17px;
+}
+.kanban > section > header.lead-stage-head {
+  height: auto;
+  min-height: 82px;
+  display: block;
+  padding: 3px 2px 10px;
+}
+.lead-stage-head > div:first-child {
+  min-height: 24px;
+}
+.stage-metrics {
+  display: grid;
+  grid-template-columns: 1fr 1.25fr;
+  gap: 7px;
+  margin-top: 7px;
+}
+.stage-metrics span {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  background: #fff;
+  border: 1px solid #e0e4e8;
+  border-radius: 7px;
+  padding: 7px 8px;
+  color: #7d8790;
+  font-size: 9px;
+}
+.stage-metrics strong {
+  color: #1e2832;
+  font-size: 12px;
+  white-space: nowrap;
+}

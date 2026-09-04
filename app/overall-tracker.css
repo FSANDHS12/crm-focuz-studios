@@ -1,0 +1,15 @@
+.tracker-overall {
+  margin-bottom: 14px;
+}
+.social-overall strong {
+  color: #8d5cbd !important;
+}
+.status-overall strong {
+  color: #258a96 !important;
+}
+.social-overall [data-slot="progress-indicator"] {
+  background: #8d5cbd;
+}
+.status-overall [data-slot="progress-indicator"] {
+  background: #258a96;
+}

@@ -1,0 +1,16 @@
+[data-slot="dialog-overlay"]{background:rgba(4,13,27,.72)!important;backdrop-filter:blur(3px)}
+.lead-dialog{width:min(760px,calc(100vw - 24px));max-width:760px;max-height:90vh;overflow-y:auto;background:#fff!important;color:#14233e!important;border:1px solid #cfd5dd!important;opacity:1!important;box-shadow:0 28px 80px rgba(2,12,28,.38)!important;isolation:isolate}
+.lead-dialog [data-slot="dialog-title"]{font:700 25px Georgia,serif;color:#0d1d37;padding-bottom:12px;border-bottom:2px solid #d4a23e}
+.lead-form{display:grid;grid-template-columns:1fr 1fr;gap:14px}.lead-form .full{grid-column:1/-1}
+.lead-form>label>span{display:block;font-size:11px;font-weight:800;color:#263750;margin-bottom:6px}
+.lead-form input{background:#fff!important;color:#17253b!important;border:1px solid #aeb8c5!important;box-shadow:0 1px 2px rgba(16,28,50,.05)}
+.lead-form input::placeholder,.lead-form textarea::placeholder{color:#8b96a3!important;opacity:1}
+.lead-form select,.lead-form textarea{width:100%;border:1px solid #aeb8c5;border-radius:8px;background:#fff;color:#17253b;padding:9px 10px;font-size:12px;outline:none}
+.lead-form input:focus,.lead-form select:focus,.lead-form textarea:focus{border-color:#c58a16!important;box-shadow:0 0 0 3px rgba(197,138,22,.14)}
+.lead-form textarea{min-height:78px;resize:vertical}
+.form-section{background:#f3f6fa;border-left:4px solid #d3a13d;border-bottom:1px solid #dfe4ea;border-radius:7px;padding:10px 12px;margin-top:4px}
+.form-section b,.form-section span{display:block}.form-section b{font:700 16px Georgia,serif;color:#14233e}.form-section span{font-size:10px;color:#667486;margin-top:3px}
+.choice-box{border:1px solid #cbd3dd;border-radius:9px;padding:12px;background:#f9fafc}.choice-box legend{font-size:11px;font-weight:800;color:#263750;padding:0 5px}
+.choice-box>div{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}.choice-box label{display:flex;align-items:center;gap:7px;color:#34445a;font-size:10px}
+.lead-form-actions{display:flex;justify-content:flex-end;gap:9px;border-top:1px solid #d9dfe6;padding-top:14px}
+@media(max-width:640px){.lead-form{grid-template-columns:1fr}.lead-form .full{grid-column:auto}.choice-box>div{grid-template-columns:1fr 1fr}}
